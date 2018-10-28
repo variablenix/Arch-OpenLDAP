@@ -1,6 +1,6 @@
 # OpenLDAP PKGBUILD
 
-This build is mirror'd from the Arch official [core](https://www.archlinux.org/packages/core/x86_64/openldap/) repo. The difference with this build is it enables the following additional modules at configure time:
+This build is mirror'd from the official Arch Linux [Core](https://www.archlinux.org/packages/core/x86_64/openldap/) repository. The difference with this build is it enables the following additional modules at compile time:
 
 1. auditlog  (logging)
 2. accesslog (logging)
