@@ -2,8 +2,8 @@
 
 pkgbase=openldap
 pkgname=('openldap' 'libldap')
-pkgver=2.4.46
-pkgrel=2
+pkgver=2.4.47
+pkgrel=1
 arch=('x86_64')
 url="https://www.openldap.org/"
 license=('custom')
@@ -11,8 +11,8 @@ makedepends=('libltdl' 'libsasl' 'e2fsprogs' 'util-linux' 'chrpath' 'unixodbc')
 options=('!makeflags' 'emptydirs')
 source=(https://www.openldap.org/software/download/OpenLDAP/openldap-release/${pkgbase}-${pkgver}.tgz
         slapd.service openldap.tmpfiles openldap.sysusers openldap-ntlm.patch)
-sha1sums=('a9ae2273eb9bdd70090dafe0d018a3132606bef6'
-          'e421a20c973273648fa83c4d504d0fefd66d7eb2'
+sha1sums=('c59d52dd75f7d1c7b02f83725da36c322d439674'
+          '2441815efbfa01ad7a1d39068e5503b53d1d04b0'
           '1f68bd85fb50595c4e916db164d8e90e0c6e21ee'
           '2bf64351c32b0bf0a70663bd42de22910998b795'
           'e4afd9f1c810ef4c4cd8fe1101dfe5887f2b7eef')
